@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+
+<html lang="pt">
+
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"/>
+  <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> -->
+  
+
+
+  <link rel="stylesheet" href="css/estilos.css">
+
+</head>
+
+<!--<body style="background-color: #AE0DF9;">-->
+
+<body style="background-color: #0FBCFF">
+
+  <nav style="background-color:#0FBCFF;" class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 200%; color:white;"
+          class="navbar-brand" href="bemEstar.html">Bem-Estar</a>
+      </div>
+      <ul class="nav navbar-nav">
+        <li><a style="color:white;" href="index.html">Home</a></li>
+        <li class="dropdown">
+          <a style="color:white;" class="dropdown-toggle" data-toggle="dropdown" href="saude.html">Saúde
+            <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="terapia.html">Terapia</a></li>
+            <li><a href="fitness.html">Fitness</a></li>
+          </ul>
+        </li>
+
+        <li><a style="color:white;" href="alimentacao.html">Alimentação</a></li>
+
+        <li><a style="color:white;" href="faleConnosco.html">Fale Connosco</a></li>
+      </ul>
+
+      <ul class="nav navbar-nav navbar-right">
+        <!--<li><a style="color:white;" href="signup.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>-->
+        <li class="dropdown">
+          <a style="color:white;" class="dropdown-toggle" data-toggle="dropdown" href="saude.html"><span
+              class="glyphicon glyphicon-user"></span>Sing up
+            <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="signupEmpresa.html">Empresa</a></li>
+            <li><a href="signupUser.html">Cliente</a></li>
+          </ul>
+        </li>
+        <li><a style="color:white;" href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+
+      <button class="btn btn-danger navbar-btn"
+        style="background-color:aliceblue;border:none;color: black; padding: 10px 10px;text-align:justify;">
+        <a href="imc.html">IMC</a>
+        <!--<a href="https://www.tuasaude.com/calculadora/imc/">IMC</a>-->
+      </button>
+    </div>
+  </nav>
+
+  <div class="container" align="center">
+
+    <div id="myCarousel" class="carousel slide" data-ride="carousel" style="width: 60%" >
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+
+      <!-- Wrapper for slides -->
+
+
+      <div class="carousel-inner">
+        <div class="item active">
+          <a href="terapia.html">Terapia
+            <img src="imagens/terapia.jpg" alt="Terapia" style="width:100%; height: 80%;">
+          </a>
+        </div>
+
+        <div class="item">
+          <a href="fitness.html">Fitness
+            <img src="imagens/imagemAtividade.jpg" alt="Fitness" style="width:100%; height: 80%;">
+          </a>
+        </div>
+
+        <div class="item">
+          <a href="alimentacao.html">Alimentação Saudável
+            <img src="imagens/alimentacao.jpg" alt="Alimentação" style="width:100%; height: 80%;">
+          </a>
+        </div>
+      </div>
+
+      <!-- Left and right controls -->
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        <span class="sr-only">Next</span>
+      </a>
+      
+    </div>
+    <br /> <br />
+  </div>
+  <div> <!--Alterar-->
+
+    
+
+    <h1 id="titulo">BEM-ESTAR: SINTA-SE BEM POR DENTRO E POR FORA!</h1>
+
+    <br />
+  </div>
+  <p style="text-align:justify; color:white; font-size:150%; margin-left: 5%; margin-right: 5%;">
+
+    A Organização Mundial da Saúde (OMS) considera a saúde como um “estado de completo bem-estar físico, mental e social
+    e não somente ausência de afecções e enfermidades.” Para estarmos bem, precisamos cuidar de todas as esferas de
+    nossa vida e realizar práticas de bem-estar. Desde o corpo até as emoções. Em todos os ambientes em que somos
+    afetados (família, trabalho, amizades, bairro, comunidades).
+
+    Cultivar o equilíbrio em todos esses meios a partir de práticas constantes é o que deixa nossa mente saudável. Se
+    libertar de frustrações, culpas, desentendimentos ou outras emoções nocivas é um caminho longo, mas pode começar com
+    algumas tarefas interiores.
+  </p>
+
+  <br /><br />
+  <hr /><br />
+
+  <div>
+
+    <div class="esquerda">
+      <img style="margin-left: 20%; margin-bottom: 5%; margin-top: 3%;" src="imagens/amor-proprio.jpg" alt="Ama-te!">
+    </div>
+
+    <div class="direita">
+
+      <h2 style="margin-top: 5%;">Aceita-te</h2>
+      <p style="font-size:150%; text-align:justify; margin-right: 7%;">Ninguém está totalmente satisfeito com o seu
+        reflexo ao espelho, mas é importante ser realista e reconhecer que nem tudo é passível de mudança.</p>
+      <p style="font-size:150%; text-align:justify; margin-right: 7%; margin-bottom: 5%;">Melhore o que considera mais
+        importante – gerir o
+        peso com uma alimentação saudável e manter a boa forma física com exercício regular – e classifique os restantes
+        aspetos da sua fisionomia – sardas, cabelo rebelde, estatura baixa, por exemplo – como traços únicos.</p>
+    </div>
+
+  </div>
+
+  <div style="display: inline-block;">
+    <span>
+      <hr />
+    </span>
+
+    <div class="esquerda">
+      <h2 style="margin-top:5%; margin-left: 8%;">Autoestima está ligada ao bem-estar</h2>
+      <p style="font-size:150%; text-align:justify; margin-left: 8%;">Não há dúvidas. A autoestima está ligada ao
+        bem-estar psicológico e físico. E não é apenas vital na fase da adolescência. Quem o diz é uma equipa de
+        psicólogos da Universidade de Concórdia (Canadá).</p>
+      <p style="font-size:150%; text-align:justify; margin-left: 8%; margin-bottom: 5%;">Os investigadores descobriram
+        que esta é a chave
+        para um
+        envelhecimento saudável e feliz, ao reforçar a autoconfiança à medida que a idade avança.
+
+        A equipa acompanhou um grupo de pessoas de 60 anos e avaliaram, durante 4 anos, os níveis de cortisol,
+        autoestima e sintomas de depressão. Verificaram que uma baixa autoestima correspondia a níveis elevados de
+        cortisol (hormona do stress) e vice-versa, e que potenciar a autoestima traz benefícios físicos e psicológicos,
+        prevenindo o aparecimento de problemas de saúde.</p>
+    </div>
+
+    <!--<span> <br /> </span>-->
+    <div class="direita">
+      <img style="margin-left: 16%; margin-top: 10%; margin-bottom: 5%;" src="imagens/mulher3.jpg" alt="Autoestima!">
+    </div>
+
+  </div>
+
+  <span>
+    <hr />
+  </span>
+
+  <h2 style="color:white; text-align:center; margin-top: 5%;">Sono de qualidade - A importância de dormir bem</h2>
+
+  <br />
+
+  <p style="text-align:justify; color:white; font-size:150%; margin-left: 5%; margin-right: 5%;">
+    Dormir bem é essencial para manter a saúde em dia. É durante o período de sono que o organismo realiza as
+    principais funções para restaurar o corpo. Além disso, é o momento de repor as energias e regular o metabolismo
+    para manter o organismo saudável. De acordo com especialistas, o recomendado são 8 horas de sono consecutivas
+    por dia.
+
+    Por outro lado, vale destacar que dormir bem não está associado apenas às quantidades de horas de sono. De fato,
+    é importante ter uma rotina regular para ter sono de qualidade. Diante do ritmo de vida cada vez mais agitado,
+    principalmente nas grandes cidades e com o estresse do dia a dia, grande parte das pessoas dorme cada vez menos.
+    Inclusive, entre as pessoas que sofrem com distúrbios de sono, a insônia é algo bastante comum, seguido de
+    apnéia obstrutiva do sono e a síndrome das pernas inquietas.
+
+  </p>
+  <p style="text-align:justify; color:white; font-size:150%; margin-left: 5%; margin-right: 5%;">A insônia é
+    caracterizada tanto pela dificuldade de
+    ter sono como por voltar a dormir após despertar durante a madrugada. Os sintomas e sinais associados à falta de
+    sono podem ser diversos, por isso é importante se atentar aos hábitos no dia a dia. Além disso, é importante ter
+    uma rotina antes de dormir e consultar o médico regularmente para avaliar possíveis causas relacionadas à
+    insônia.
+
+    Portanto, ter um sono de qualidade pode promover vários benefícios para a saúde do corpo e da mente. Além de
+    fortalecer o sistema imunológico, pode estimular a produção de hormônios que causam o bem-estar e influenciam de
+    forma positiva a memória.</p>
+
+  <br />
+
+  <div>
+
+    <div class="esquerda">
+      <img style="margin-left: 10%; margin-bottom: 14.9%; margin-top: 7%;" src="imagens/homem.jpg" alt="Sono">
+    </div>
+
+    <div class="direita">
+
+      <h3 style="margin-top: 5%; margin-left: 3%;">Segue alguns benefícios do sono de qualidade:</h3>
+      <!--<p style="font-size:150%; text-align:justify; margin-right: 7%; margin-left: 3%;">-->
+      <ul style="text-align:left; color:white; font-size:150%; margin-left: 3%;">
+        <li>Melhora a imunidade;</li>
+        <li>Melhora no humor e no relacionamento com as pessoas;</li>
+        <li>Aumento na capacidade de concentração;</li>
+        <li>Evita acidentes gerados pelo cansaço;</li>
+        <li>Melhor controle de peso. </li>
+      </ul>
+      <!--</p>-->
+      <h3 style="margin-top: 5%; margin-left: 3%; margin-right: 5%;">Alguns hábitos
+        podem ajudar na rotina para ter uma boa qualidade de sono como:</h3>
+      <ul style="color:white; font-size:150%; margin-left: 3%; margin-right: 5%;">
+        <li>Preparar o ambiente para dormir, deixando-o escuro e silencioso;</li>
+        <li>Evitar o uso de aparelhos eletrônicos como tv, celular e notebook próximo ao horário de dormir;</li>
+        <li>Evitar o consumo de alimentos estimulantes como café, açúcar e pimenta antes de dormir;</li>
+        <li>Evitar o uso de bebidas alcóolicas e cigarros;</li>
+        <li>Evitar o excesso de cochilos ao longo do dia, pois essa ação pode interferir no sono noturno;</li>
+        <li>Manter um horário regular para dormir e acordar.</li>
+      </ul>
+
+    </div>
+  </div>
+
+  <br /><br />
+
+
+
+  <footer class="main_footer container">
+
+    <div class="content">
+      <div class="colfooter">
+
+        <h3 class="titleFooter"> Menu</h3>
+
+        <ul>
+
+          <li><a href="#" title="Página Inícial">Página Inícial</a></li>
+          <li><a href="#" title="Sobre a Empresa">Sobre a Empresa</a></li>
+          <li><a href="#" title="Fale Conosco">Fale Conosco</a></li>
+
+        </ul>
+      </div><!--Col Footer 1-->
+      <div class="colfooter">
+
+        <h3 class="titleFooter"> Contato</h3>
+        <p><i class="icon icon-mail"></i> claudia_roberta@bemestar.com</p>
+        <p><i class="icon icon-phone"></i>000 000 000</p>
+        <p><i class="icon icon-whatsapp"></i> 000 000 000</p>
+      </div><!--Col Footer 2-->
+      <div class="colfooter">
+
+        <h3 class="titleFooter"> Redes Sociais</h3>
+
+        <a href="#" class="botao"><span> <i class="icon icon-facebook"></i> </span></a>
+        <a href="https://www.instagram.com/" class="botao"><i class="icon icon-instagram"></i></a>
+        <a href="#" class="botao"><span> <i class="icon icon-twitter"></i> </span></a>
+        
+      </div><!--Col Footer 3 "icon icon-instagram" <i class="bi bi-instagram"></i> <a href="https://www.instagram.com/" class="botao">-->
+      <div class="clear"></div>
+
+    </div><!--Contant-->
+    <div class="main_footer_copy">
+
+      <p class="m-b-footer"> Bem-Estar - 2023, todos os direitos reservados.</p>
+      <p class="by"><i class="icon icon-heart-3"></i> Desenvolvido por: <a href="#" title="Seu nome">Claudia Santos &
+          Roberta Sales</a></p>
+
+    </div>
+  </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+
+
+</body>
+
+</html>
